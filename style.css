@@ -75,10 +75,10 @@ p {
 
 @media screen and (max-width:790px) {
     .navbar {
-        width: 80vh;
+        width: 85vh;
     }
     .container {
-        width: 69vh;
+        width: 80vh;
         justify-content: center;
     }
 
