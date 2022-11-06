@@ -75,15 +75,14 @@ p {
 
 @media screen and (max-width:790px) {
     .navbar {
-        width: 143vh;
+        width: 100vh;
     }
     .container {
-        
-        width: 132vh;
+        width: 100vh;
         justify-content: center;
     }
 
     .kiku {
-        margin-left: 15vh;
+
     }
 }
