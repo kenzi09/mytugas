@@ -1,0 +1,89 @@
+@import url('https://fonts.cdnfonts.com/css/vinque');
+@import url('https://fonts.cdnfonts.com/css/market');
+
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgb(34, 34, 34);
+    padding: 20px;
+    font-family: 'Vinque', sans-serif;
+}
+
+h3 {
+    padding: 10px;
+
+}
+
+h1 {
+    color: white;
+}
+
+body{
+    text-align: center;
+}
+
+.kiku{
+    font-size: 18px;
+    width: 600px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 30px;
+    font-family: 'Market', sans-serif;
+}
+
+a {
+    color: white;
+    font-size: 25px;
+}
+a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: white; 
+    border-radius: 5px;
+    transition: .3s ease-in-out;
+}
+.imgh{
+    width: 350px;
+    border-radius: 100%;
+
+}
+
+.h2-nav {
+    padding-left: 200px;
+    padding-top: 175px;
+    font-size: 40px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-image: url(img/bghi.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Vinque', sans-serif;                         
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:790px) {
+    .navbar {
+        width: 143vh;
+    }
+    .container {
+        
+        width: 132vh;
+        justify-content: center;
+    }
+
+    .kiku {
+        margin-left: 15vh;
+    }
+}

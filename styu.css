@@ -1,0 +1,61 @@
+
+@import url('https://fonts.cdnfonts.com/css/vinque');
+@import url('https://fonts.cdnfonts.com/css/market');
+
+body{
+  background-color: dimgray;
+  text-align: center;
+}
+
+.container {
+font-family: 'Vinque', sans-serif;
+}
+
+.content {
+font-family: 'Market', sans-serif;
+}
+
+img { 
+max-width: 100%;
+max-height: 200px;
+}
+
+.gallery {
+  display: flex;
+}
+
+.images {
+padding-left: 15px;
+padding-right: 15px;
+}
+.section{
+background-color: white;
+border-radius: 10px;
+width: 1100px;
+margin:auto ;
+}
+.apabi{
+color:white;
+}
+.apabi:hover{
+color: black;
+text-decoration: none;
+}
+h2{
+margin-top: 10px;
+}
+h5{
+font-size: 20px;
+}
+
+.jika {
+color: black;
+}
+
+.jika:hover {
+color: white;
+text-decoration: none;
+background-color: black; 
+border-radius: 5px;
+transition: .3s ease-in-out;
+}
